@@ -1,0 +1,14 @@
+ec2-user:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh 
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+pod/predictvalue created
+NAME           READY   STATUS              RESTARTS   AGE
+predictvalue   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+ec2-user:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh 
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "predictvalue" already exists
+NAME           READY   STATUS    RESTARTS   AGE
+predictvalue   1/1     Running   0          46s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
