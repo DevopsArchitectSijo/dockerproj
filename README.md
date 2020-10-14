@@ -42,5 +42,5 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Run via kubectl
 
 ### Output Files
-docker_out.txt - Output log details from app.py predictions
-kubernetes.out.txt - Pod is created in the kubernets cluster and prediction is made via the pod
+* docker_out.txt - Output log details from app.py predictions
+* kubernetes.out.txt - Pod is created in the kubernets cluster and prediction is made via the pod
