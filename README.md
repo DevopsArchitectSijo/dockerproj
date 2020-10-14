@@ -40,3 +40,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Output Files
+docker_out.txt - Output log details from app.py predictions
+kubernetes.out.txt - Pod is created in the kubernets cluster and prediction is made via the pod
